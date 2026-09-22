@@ -15,15 +15,11 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-<br />
-
-<img src="docs/screenshots/04-editor.png" alt="SyncForge Editor" width="90%" />
-
-<br />
-
 *A portfolio-grade distributed system demonstrating real-time collaboration, conflict-free state synchronization, and production-quality engineering.*
 
-[**Getting Started**](#-quick-start) · [**Architecture**](#-architecture) · [**Screenshots**](#-screenshots) · [**Documentation**](docs/)
+<br />
+
+[**Getting Started**](#-quick-start) · [**Architecture**](#-architecture) · [**Tech Stack**](#-tech-stack) · [**Documentation**](docs/)
 
 ---
 
@@ -46,43 +42,6 @@ SyncForge is **not** a toy text editor. It's a ground-up implementation of a rea
 | **Horizontal Scale** | Multi-instance coordination via Redis pub/sub channels |
 
 > **The CRDT implementation is written from scratch** — no Yjs, no Automerge — to demonstrate a deep understanding of the underlying distributed systems theory.
-
----
-
-## 🖥️ Screenshots
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="docs/screenshots/01-landing.png" alt="Landing Page" />
-      <p align="center"><strong>Landing Page</strong><br/>Clean, modern authentication flow</p>
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/03-dashboard.png" alt="Dashboard" />
-      <p align="center"><strong>Document Dashboard</strong><br/>Create, manage & organize documents</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="docs/screenshots/05-crdt-inspector.png" alt="CRDT Inspector" />
-      <p align="center"><strong>CRDT Inspector</strong><br/>Live RGA node visualization & fault injection</p>
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/07-share-modal.png" alt="Share Modal" />
-      <p align="center"><strong>Collaboration</strong><br/>Invite collaborators with role-based access</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="docs/screenshots/06-version-history.png" alt="Version History" />
-      <p align="center"><strong>Version History</strong><br/>Snapshot-based document recovery</p>
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/02-register.png" alt="Registration" />
-      <p align="center"><strong>Authentication</strong><br/>Secure JWT-based registration & login</p>
-    </td>
-  </tr>
-</table>
 
 ---
 
